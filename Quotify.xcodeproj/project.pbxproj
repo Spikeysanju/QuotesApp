@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A88DC824E87941006E811B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DC724E87941006E811B /* AppDelegate.swift */; };
+		A6A88DCA24E87941006E811B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DC924E87941006E811B /* SceneDelegate.swift */; };
+		A6A88DCD24E87941006E811B /* Quotify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DCB24E87941006E811B /* Quotify.xcdatamodeld */; };
+		A6A88DCF24E87941006E811B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DCE24E87941006E811B /* ContentView.swift */; };
+		A6A88DD124E87943006E811B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A88DD024E87943006E811B /* Assets.xcassets */; };
+		A6A88DD424E87943006E811B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A88DD324E87943006E811B /* Preview Assets.xcassets */; };
+		A6A88DD724E87943006E811B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A88DD524E87943006E811B /* LaunchScreen.storyboard */; };
+		A6A88DE224E87943006E811B /* QuotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DE124E87943006E811B /* QuotifyTests.swift */; };
+		A6A88DED24E87943006E811B /* QuotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DEC24E87943006E811B /* QuotifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A88DDE24E87943006E811B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A88DBC24E87941006E811B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A88DC324E87941006E811B;
+			remoteInfo = Quotify;
+		};
+		A6A88DE924E87943006E811B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A88DBC24E87941006E811B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A88DC324E87941006E811B;
+			remoteInfo = Quotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A88DC424E87941006E811B /* Quotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A88DC724E87941006E811B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A88DC924E87941006E811B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6A88DCC24E87941006E811B /* Quotify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quotify.xcdatamodel; sourceTree = "<group>"; };
+		A6A88DCE24E87941006E811B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6A88DD024E87943006E811B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A88DD324E87943006E811B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6A88DD624E87943006E811B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A88DD824E87943006E811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A88DDD24E87943006E811B /* QuotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A88DE124E87943006E811B /* QuotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotifyTests.swift; sourceTree = "<group>"; };
+		A6A88DE324E87943006E811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A88DE824E87943006E811B /* QuotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A88DEC24E87943006E811B /* QuotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotifyUITests.swift; sourceTree = "<group>"; };
+		A6A88DEE24E87943006E811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A88DC124E87941006E811B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A88DDA24E87943006E811B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A88DE524E87943006E811B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A88DBB24E87941006E811B = {
+			isa = PBXGroup;
+			children = (
+				A6A88DC624E87941006E811B /* Quotify */,
+				A6A88DE024E87943006E811B /* QuotifyTests */,
+				A6A88DEB24E87943006E811B /* QuotifyUITests */,
+				A6A88DC524E87941006E811B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A88DC524E87941006E811B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DC424E87941006E811B /* Quotify.app */,
+				A6A88DDD24E87943006E811B /* QuotifyTests.xctest */,
+				A6A88DE824E87943006E811B /* QuotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A88DC624E87941006E811B /* Quotify */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DC724E87941006E811B /* AppDelegate.swift */,
+				A6A88DC924E87941006E811B /* SceneDelegate.swift */,
+				A6A88DCE24E87941006E811B /* ContentView.swift */,
+				A6A88DD024E87943006E811B /* Assets.xcassets */,
+				A6A88DD524E87943006E811B /* LaunchScreen.storyboard */,
+				A6A88DD824E87943006E811B /* Info.plist */,
+				A6A88DCB24E87941006E811B /* Quotify.xcdatamodeld */,
+				A6A88DD224E87943006E811B /* Preview Content */,
+			);
+			path = Quotify;
+			sourceTree = "<group>";
+		};
+		A6A88DD224E87943006E811B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DD324E87943006E811B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6A88DE024E87943006E811B /* QuotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DE124E87943006E811B /* QuotifyTests.swift */,
+				A6A88DE324E87943006E811B /* Info.plist */,
+			);
+			path = QuotifyTests;
+			sourceTree = "<group>";
+		};
+		A6A88DEB24E87943006E811B /* QuotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DEC24E87943006E811B /* QuotifyUITests.swift */,
+				A6A88DEE24E87943006E811B /* Info.plist */,
+			);
+			path = QuotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A88DC324E87941006E811B /* Quotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A88DF124E87943006E811B /* Build configuration list for PBXNativeTarget "Quotify" */;
+			buildPhases = (
+				A6A88DC024E87941006E811B /* Sources */,
+				A6A88DC124E87941006E811B /* Frameworks */,
+				A6A88DC224E87941006E811B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quotify;
+			productName = Quotify;
+			productReference = A6A88DC424E87941006E811B /* Quotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A88DDC24E87943006E811B /* QuotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A88DF424E87943006E811B /* Build configuration list for PBXNativeTarget "QuotifyTests" */;
+			buildPhases = (
+				A6A88DD924E87943006E811B /* Sources */,
+				A6A88DDA24E87943006E811B /* Frameworks */,
+				A6A88DDB24E87943006E811B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A88DDF24E87943006E811B /* PBXTargetDependency */,
+			);
+			name = QuotifyTests;
+			productName = QuotifyTests;
+			productReference = A6A88DDD24E87943006E811B /* QuotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6A88DE724E87943006E811B /* QuotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A88DF724E87943006E811B /* Build configuration list for PBXNativeTarget "QuotifyUITests" */;
+			buildPhases = (
+				A6A88DE424E87943006E811B /* Sources */,
+				A6A88DE524E87943006E811B /* Frameworks */,
+				A6A88DE624E87943006E811B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A88DEA24E87943006E811B /* PBXTargetDependency */,
+			);
+			name = QuotifyUITests;
+			productName = QuotifyUITests;
+			productReference = A6A88DE824E87943006E811B /* QuotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A88DBC24E87941006E811B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Spikey Sanju";
+				TargetAttributes = {
+					A6A88DC324E87941006E811B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A6A88DDC24E87943006E811B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A6A88DC324E87941006E811B;
+					};
+					A6A88DE724E87943006E811B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A6A88DC324E87941006E811B;
+					};
+				};
+			};
+			buildConfigurationList = A6A88DBF24E87941006E811B /* Build configuration list for PBXProject "Quotify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A88DBB24E87941006E811B;
+			productRefGroup = A6A88DC524E87941006E811B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A88DC324E87941006E811B /* Quotify */,
+				A6A88DDC24E87943006E811B /* QuotifyTests */,
+				A6A88DE724E87943006E811B /* QuotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A88DC224E87941006E811B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A88DD724E87943006E811B /* LaunchScreen.storyboard in Resources */,
+				A6A88DD424E87943006E811B /* Preview Assets.xcassets in Resources */,
+				A6A88DD124E87943006E811B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A88DDB24E87943006E811B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A88DE624E87943006E811B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A88DC024E87941006E811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A88DC824E87941006E811B /* AppDelegate.swift in Sources */,
+				A6A88DCD24E87941006E811B /* Quotify.xcdatamodeld in Sources */,
+				A6A88DCF24E87941006E811B /* ContentView.swift in Sources */,
+				A6A88DCA24E87941006E811B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A88DD924E87943006E811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A88DE224E87943006E811B /* QuotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A88DE424E87943006E811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A88DED24E87943006E811B /* QuotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A88DDF24E87943006E811B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A88DC324E87941006E811B /* Quotify */;
+			targetProxy = A6A88DDE24E87943006E811B /* PBXContainerItemProxy */;
+		};
+		A6A88DEA24E87943006E811B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A88DC324E87941006E811B /* Quotify */;
+			targetProxy = A6A88DE924E87943006E811B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A88DD524E87943006E811B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A88DD624E87943006E811B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A88DEF24E87943006E811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6A88DF024E87943006E811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A88DF224E87943006E811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Quotify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Quotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.spikeysanju.dev.Quotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A88DF324E87943006E811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Quotify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Quotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.spikeysanju.dev.Quotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6A88DF524E87943006E811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuotifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.spikeysanju.dev.QuotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quotify.app/Quotify";
+			};
+			name = Debug;
+		};
+		A6A88DF624E87943006E811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuotifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.spikeysanju.dev.QuotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quotify.app/Quotify";
+			};
+			name = Release;
+		};
+		A6A88DF824E87943006E811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.spikeysanju.dev.QuotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quotify;
+			};
+			name = Debug;
+		};
+		A6A88DF924E87943006E811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.spikeysanju.dev.QuotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A88DBF24E87941006E811B /* Build configuration list for PBXProject "Quotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A88DEF24E87943006E811B /* Debug */,
+				A6A88DF024E87943006E811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A88DF124E87943006E811B /* Build configuration list for PBXNativeTarget "Quotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A88DF224E87943006E811B /* Debug */,
+				A6A88DF324E87943006E811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A88DF424E87943006E811B /* Build configuration list for PBXNativeTarget "QuotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A88DF524E87943006E811B /* Debug */,
+				A6A88DF624E87943006E811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A88DF724E87943006E811B /* Build configuration list for PBXNativeTarget "QuotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A88DF824E87943006E811B /* Debug */,
+				A6A88DF924E87943006E811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6A88DCB24E87941006E811B /* Quotify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6A88DCC24E87941006E811B /* Quotify.xcdatamodel */,
+			);
+			currentVersion = A6A88DCC24E87941006E811B /* Quotify.xcdatamodel */;
+			path = Quotify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6A88DBC24E87941006E811B /* Project object */;
+}
