@@ -25,6 +25,7 @@ class QuoteViewModel: ObservableObject {
             
             guard let quotes = data else {return}
             
+            // decode results from result request
             do{
                 let result = try JSONDecoder().decode([Quote].self, from: quotes)
                 
