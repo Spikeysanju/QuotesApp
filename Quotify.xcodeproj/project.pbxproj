@@ -16,6 +16,11 @@
 		A6A88DD724E87943006E811B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A88DD524E87943006E811B /* LaunchScreen.storyboard */; };
 		A6A88DE224E87943006E811B /* QuotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DE124E87943006E811B /* QuotifyTests.swift */; };
 		A6A88DED24E87943006E811B /* QuotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DEC24E87943006E811B /* QuotifyUITests.swift */; };
+		A6A88DFE24E87D9B006E811B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DFD24E87D9B006E811B /* Home.swift */; };
+		A6A88E0024E87E23006E811B /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88DFF24E87E23006E811B /* Quote.swift */; };
+		A6A88E0224E87EE2006E811B /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88E0124E87EE2006E811B /* QuoteViewModel.swift */; };
+		A6A88E0424E886C6006E811B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88E0324E886C6006E811B /* CardView.swift */; };
+		A6A88E0624E89292006E811B /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A88E0524E89292006E811B /* Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		A6A88DE824E87943006E811B /* QuotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A88DEC24E87943006E811B /* QuotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotifyUITests.swift; sourceTree = "<group>"; };
 		A6A88DEE24E87943006E811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A88DFD24E87D9B006E811B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A6A88DFF24E87E23006E811B /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A6A88E0124E87EE2006E811B /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		A6A88E0324E886C6006E811B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A6A88E0524E89292006E811B /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +111,11 @@
 		A6A88DC624E87941006E811B /* Quotify */ = {
 			isa = PBXGroup;
 			children = (
+				A6A88DFC24E87D4B006E811B /* ViewModel */,
+				A6A88DFB24E87D40006E811B /* View */,
+				A6A88DFA24E87D2D006E811B /* Model */,
 				A6A88DC724E87941006E811B /* AppDelegate.swift */,
 				A6A88DC924E87941006E811B /* SceneDelegate.swift */,
-				A6A88DCE24E87941006E811B /* ContentView.swift */,
 				A6A88DD024E87943006E811B /* Assets.xcassets */,
 				A6A88DD524E87943006E811B /* LaunchScreen.storyboard */,
 				A6A88DD824E87943006E811B /* Info.plist */,
@@ -137,6 +149,33 @@
 				A6A88DEE24E87943006E811B /* Info.plist */,
 			);
 			path = QuotifyUITests;
+			sourceTree = "<group>";
+		};
+		A6A88DFA24E87D2D006E811B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DFF24E87E23006E811B /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6A88DFB24E87D40006E811B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88DCE24E87941006E811B /* ContentView.swift */,
+				A6A88DFD24E87D9B006E811B /* Home.swift */,
+				A6A88E0324E886C6006E811B /* CardView.swift */,
+				A6A88E0524E89292006E811B /* Indicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6A88DFC24E87D4B006E811B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6A88E0124E87EE2006E811B /* QuoteViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +311,13 @@
 			files = (
 				A6A88DC824E87941006E811B /* AppDelegate.swift in Sources */,
 				A6A88DCD24E87941006E811B /* Quotify.xcdatamodeld in Sources */,
+				A6A88DFE24E87D9B006E811B /* Home.swift in Sources */,
 				A6A88DCF24E87941006E811B /* ContentView.swift in Sources */,
+				A6A88E0024E87E23006E811B /* Quote.swift in Sources */,
 				A6A88DCA24E87941006E811B /* SceneDelegate.swift in Sources */,
+				A6A88E0424E886C6006E811B /* CardView.swift in Sources */,
+				A6A88E0624E89292006E811B /* Indicator.swift in Sources */,
+				A6A88E0224E87EE2006E811B /* QuoteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
